@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Gea Viki</title>
+    <link rel="stylesheet" href="gea.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Portofolio Gea Viki</div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Pengalaman.html">Pengalaman</a></li>
+                <li><a href="Skill.html">Skill</a></li>
+                <li><a href="Sertifikat.html">Sertifikat</a></li>
+                <li><a href="Kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro">
+            <h1>Hai!<br><span>Saya Gea Viki</span></h1>
+            <hr>
+            <p>Saya siswi SMKN 1 Nglegok jurusan Teknik Komputer dan Jaringan (TKJ) <br> dengan minat dalam jaringan, sistem administrasi, dan desain. <br> Saya senang belajar hal baru, dapat bekerja dalam tim maupun mandiri,<br> serta memiliki kemampuan pemecahan masalah.</p>
+        </div>
+        <div class="profile-image">
+            <img src="image gea.png" alt="Foto Gea Viki">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 G3A Viki</p>
+    </footer>
+
+    <script>
+        // Sedikit JavaScript sederhana untuk toggle menu responsif
+        document.querySelector('.menu-icon').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('responsive');
+        });
+    </script>
+</body>
+</html>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:url(bg1.jpg);
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.intro h1 span {
+    font-size: 4rem;
+}
+
+.intro hr {
+    width: 50%;
+    margin: 1rem 0;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.profile-image img {
+    width: 300px;
+    border-radius: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengalaman - Gea Viki</title>
+    <link rel="stylesheet" href="pengalaman.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Portofolio Gea Viki</div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Pengalaman.html">Pengalaman</a></li>
+                <li><a href="Skill.html">Skill</a></li>
+                <li><a href="Sertifikat.html">Sertifikat</a></li>
+                <li><a href="Kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="pengalaman">
+        <div class="content">
+            <div class="text">
+                <h1>Pengalaman</h1>
+                <hr>
+                <h3>Lomba SBQ</h3>
+                <p>Saya pernah mengikuti Lomba SBQ tingkat Kecamatan pada tahun 2018.</p>
+
+                <h3>Lomba Cerdas Cermat MIPA</h3>
+                <p>Pada tahun 2019, saya berpartisipasi dalam Lomba Cerdas Cermat MIPA tingkat Kecamatan.</p>
+
+                <h3>Anggota Osis</h3>
+                <p>Saya aktif sebagai anggota OSIS pada periode 2020–2021.</p>
+            </div>
+            <div class="image">
+                <img src="pengalaman.jpeg" alt="Foto Pengalaman">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 G3A Viki</p>
+    </footer>
+</body>
+</html>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:url(bg1.jpg);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main.pengalaman {
+    flex: 1;
+    padding: 4rem 5rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.text {
+    max-width: 50%;
+}
+
+.text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.text hr {
+    width: 120px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 1.5rem;
+}
+
+.text h3 {
+    margin-top: 1.5rem;
+}
+
+.text p {
+    margin-top: 0.3rem;
+    line-height: 1.5;
+}
+
+.image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>

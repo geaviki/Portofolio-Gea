@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sertifikat - Gea Viki</title>
+    <link rel="stylesheet" href="sertifikat.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Portofolio Gea Viki</div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Pengalaman.html">Pengalaman</a></li>
+                <li><a href="Skill.html">Skill</a></li>
+                <li><a href="Sertifikat.html">Sertifikat</a></li>
+                <li><a href="Kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="sertifikat">
+        <h1>Sertifikat</h1>
+        <hr>
+        <div class="grid-sertifikat">
+            <img src="sertifikat1.jpeg" alt="Sertifikat 1">
+            <img src="sertifikat2.jpeg" alt="Sertifikat 2">
+            <img src="sertifikat3.jpeg" alt="Sertifikat 3">
+            <img src="sertifikat4.jpeg" alt="Sertifikat 4">
+            <img src="sertifikat5.jpeg" alt="Sertifikat 5">
+        <h3>Always Coding</h3>
+        <h3>Fortinet</h3>
+        <h3>Fortinet</h3>
+        <h3>Fortinet</h3>
+        <h3>Redhat</h3>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 G3A Viki</p>
+    </footer>
+</body>
+</html>
+
+<style>
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:url(bg1.jpg);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+header {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main.sertifikat {
+    flex: 1;
+    padding: 5rem 5rem;
+}
+
+main.sertifikat h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+main.sertifikat hr {
+    width: 120px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 1rem 0 2rem;
+}
+
+.grid-sertifikat {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.grid-sertifikat img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
